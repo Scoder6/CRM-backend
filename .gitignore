@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Build/Dist
+dist/
+build/
+
+# Caches
+.cache/
+.tmp/
+.temp/
+
+# Editor/OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Lint/Tools
+.eslintcache
+
+
