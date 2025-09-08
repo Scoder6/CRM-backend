@@ -13,10 +13,9 @@ npm install
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/crm-pro
+MONGODB_URI=mongodb://localhost:27017/crm-pro #Replace it with your actual mongodb srv
 JWT_SECRET=your-super-secret-jwt-key-here
-JWT_EXPIRE=7d
-CORS_ORIGIN=http://localhost:5173
+JWT_EXPIRE=24h
 ```
 
 3. Start the server:
